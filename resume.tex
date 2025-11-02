@@ -1,0 +1,298 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% License : MIT
+% BK said : Thx you Aras Gungore!
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Handsome(?) Sheen} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:88609xxxxxxxx}{+886 9xx xxx xxx}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:abc123@gmail.com}{abc123@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/yourname/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/yourname}{GitHub}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://www.cake.me/yourname}{Visual CV}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/%E5%9C%8B%E7%AB%8B%E4%B8%AD%E8%88%88%E5%A4%A7%E5%AD%B8/@24.1235569,120.6727457,17z/data=!3m1!4b1!4m6!3m5!1s0x34693cfcecffe9d9:0xe28afadc0dad203a!8m2!3d24.123552!4d120.675326!16zL20vMDR4cDF6?authuser=0&entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D
+\end{center}
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+   \resumeEducationHeading
+      {National Chung Hsing University
+      }{Taichung, Taiwan}
+      {M.S. in Information Management;   \textbf{GPA: 3.78/4.30}}{Sep 2021 \textbf{--} Jun 2024}
+      {Information Security and Blockchain Applications Lab{}}{}
+    \resumeEducationHeading
+      {National Formosa University
+      }{Yunlin, Taiwan}
+      {B.S. in Information Management;   %\textbf{GPA: 2.9/4.30}
+      } {Sep 2016 \textbf{--} Jun 2020}{}{}
+      
+  \resumeSubHeadingListEnd
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+         \textbf{Programming Languages:} Python, Java, JavaScript, C++, C\#, MATLAB, Scala, PHP \\[3pt]
+        \textbf{Web \& Database Technologies:} HTML, CSS, Flask, Django, Firebase, MongoDB, MySQL, SQL \\[3pt]
+        \textbf{Frameworks \& Tools:} TensorFlow, Keras, PyTorch, Scikit-learn, OpenCV, Docker, VMware, Kali Linux \\[3pt]
+        \textbf{Blockchain / DLT:} Hyperledger Fabric, Solidity
+        
+     }}
+  \resumeSubHeadingListEnd
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {National Chung Hsing University (NCHU)}{Taichung, Taiwan}
+      {Research Assistant}{Sep 2021 \textbf{--} May 2024}
+        \resumeItemListStart
+            \resumeItem{Engineered a digital warranty management system to replace paper workflows using Flask and MongoDB, improving scalability and data integrity.}
+            \resumeItem{Integrated Hyperledger to establish a private blockchain on Ubuntu, enabling secure and verifiable data transactions.}
+            \resumeItem{Developed a real-time feedback analysis platform using Firebase and Flask for student response visualization.}
+            \resumeItem{Applied machine learning within the STEAM framework to analyze instructional data, resulting in three international conference papers.}
+            \resumeItem{Developed interactive \textbf{VR-based educational modules} in Unity to enhance classroom engagement and experiential learning.}
+            \resumeItem{Designed and implemented \textbf{cybersecurity lab exercises} (e.g., Nmap, SQLMap, Wireshark) to provide hands-on training in network analysis and ethical hacking.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Science and Technology Policy Research and Information Center, NARLabs}{Tainan, Taiwan}
+      {Research Assistant}{Jul 2022 \textbf{--} Jun 2023}
+        \resumeItemListStart
+            \resumeItem{Conducted Deepfake detection research at the Cybersecurity Center of Excellence (CCoE), funded by the \href{https://www.stpi.niar.org.tw/}{\color{blue}National Science and Technology Council (NSTC)}, Taiwan.}
+            \resumeItem{Designed and deployed the \textbf{TWHD (Taiwan High-quality Deepfake Dataset)} to improve detection accuracy for Taiwanese facial data, benchmarking it against KoDF, FaceForensics++, and DFDC datasets.}
+            \resumeItem{Implemented and optimized Deepfake detection pipelines using \textbf{ResNet}, \textbf{Transformer}, and \textbf{XceptionNet} architectures in \textbf{TensorFlow} and \textbf{PyTorch}.}
+            \resumeItem{Contributed to a team project developing a web-based Deepfake detection platform by refining data preprocessing workflows and improving dataset quality to enhance model accuracy.}
+        \resumeItemListEnd
+        %\newpage
+
+    \resumeSubheading
+      {National Chung Hsing University (NCHU)}{Taichung, Taiwan}
+      {Teaching Assistant}{Sep 2022 \textbf{--} Jun 2023}
+        \resumeItemListStart
+            \resumeItem{Assisted in teaching \textit{Programming and Application} and \textit{App Mobile Devices} courses for non-technical students.}
+            \resumeItem{Demonstrated strong Python proficiency by designing lab exercises, guiding debugging sessions, and explaining core programming logic in beginner-friendly terms.}
+        \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+    
+    %\newpage
+    
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+    {\textbf{MailGuard} — Local LLM-Based Email Security Automation}{}
+    \resumeItemListStart
+      \resumeItem{Developed a local AI-driven email security pipeline using \textbf{Ollama (Llama model)} integrated with \textbf{n8n}, enabling secure \textbf{on-device inference} for automated email analysis and response.}
+      \resumeItem{Implemented a dual-layer LLM system where the local model detects and sanitizes potential security threats such as \textbf{prompt injection}, encoded payloads, and embedded commands before forwarding to \textbf{Gemini} for automatic reply generation.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Trusted Data Marketplace Based on IOTA Blockchain}}{}
+        \resumeItemListStart
+          \resumeItem{Built a membership management platform integrating product warranty information, leveraging \textbf{IOTA blockchain} to ensure data immutability and traceability.}
+          \resumeItem{Tech Stack: \textbf{Flask, Nginx, MongoDB, Hyperledger, HTML/CSS/JavaScript}}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{Educational Management Platform Development}}{}
+        \resumeItemListStart
+          \resumeItem{Developed a course management system integrating student grades, records, and survey data into a \textbf{Flask–Firebase} backend with a searchable analytics dashboard.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{Stock Price Prediction Using Deep Learning and Regression Models}}{}
+        \resumeItemListStart
+          \resumeItem{Implemented stock trend forecasting using \textbf{TensorFlow} and \textbf{Keras}-based LSTM architectures, fine-tuning hyperparameters (learning rate, batch size, sequence length) to optimize model performance.}
+          \resumeItem{Compared model results across regression techniques (Linear, Lasso, Ridge, Polynomial, Decision Tree, Logistic Regression) using accuracy, F1-score, and loss metrics.}
+          \resumeItem{Enhanced overall model precision through systematic data preprocessing and feature engineering.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{Smart Contract Development and Deployment}}{}
+        \resumeItemListStart
+          \resumeItem{Developed and deployed \textbf{Solidity} smart contracts using \textbf{Remix IDE} and \textbf{MetaMask}, implementing transaction logging, role-based access control, and automated fund transfers.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{VR Educational Game Development and Design}}{}
+        \resumeItemListStart
+          \resumeItem{Designed and developed an immersive VR educational game using \textbf{Unity}, combining interactive gameplay with instructional content to enhance learning engagement.}
+          \resumeItem{Planned gameplay flow and learning objectives, conducted iterative testing and optimization for system stability and learning outcomes.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{Smart Tourism and Air Quality Information Platform}}{}
+        \resumeItemListStart
+          \resumeItem{Developed a responsive web platform combining tourism information with real-time weather and air quality data using open APIs from Taiwan’s Environmental Protection Administration.}
+          \resumeItem{Implemented web crawling and data visualization to integrate travel blog content and enhance user experience and decision-making.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{Amazon KDD Cup 2022}}{}
+        \resumeItemListStart
+          \resumeItem{Participated in the global \textbf{Amazon KDD Cup 2022} competition as a team member, using a \textbf{BERT-based model} to predict product similarity and achieved benchmark-level performance.}
+          \resumeItem{Gained experience in data preprocessing, feature engineering, and model training for large-scale datasets.}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+        {\textbf{AI-Based Fish Species Recognition System Platform}}{}
+        \resumeItemListStart
+          \resumeItem{Developed a deep learning-based fish species recognition platform using \textbf{PyTorch (YOLOv5)}, trained on custom datasets with tuned confidence thresholds and non-max suppression parameters for improved detection accuracy.}
+          \resumeItem{The project passed the first-stage review and was invited for an on-site presentation to industry evaluators.}
+        \resumeItemListEnd
+
+      
+    \resumeSubHeadingListEnd
+
+%----------- Publications & Research Outputs -----------
+
+\newenvironment{publist}{
+  \begin{itemize}[leftmargin=0em, itemsep=4pt, label={}]
+}{
+  \end{itemize}
+}
+
+\section{Publications \& Research Outputs}
+\vspace{4pt}
+\begin{publist}
+    \item \textbf{TWHD: Taiwan Pioneering Deepfake Dataset for Multi-Face Forgery Detection}, Master’s Thesis, National Chung Hsing University (NCHU), 2024.
+    \item \textbf{Enhancement of Information Security Literacy of University Students in Programming Courses}, \textit{ASET 2022 – 38th Science Education Conference}.
+    \item \textbf{Using Flowcharting as a Modeling Tool in Programming STEAM Learning}, \textit{ASET 2022 – 38th Science Education Conference}.
+    \item \textbf{Undergraduate Students’ Technological Cognition and Risk Perception on Information Ethics}, \textit{ISTEM-ED 2024 – Singapore International STEM Education Conference}.
+\end{publist}
+
+\end{document}
