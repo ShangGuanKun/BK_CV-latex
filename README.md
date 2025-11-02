@@ -31,4 +31,18 @@ Key highlights from my resume include:
 
 ---
 
-## 🧩 Repository Contents
+## 🛠️ Tech Stack Mentioned
+**Languages:** Python, Java, C++, JavaScript  
+**Frameworks:** TensorFlow, PyTorch, Flask, Django  
+**Tools:** Docker, VMware, Firebase, MongoDB, Hyperledger  
+**Domains:** AI Security, Blockchain, Educational Technology 
+
+---
+
+## 📘 關於我
+我畢業於國立中興大學資訊管理所，研究主題涵蓋人工智慧資安、深偽檢測、區塊鏈應用與Web開發。  
+專長於將 AI、資安與系統開發結合，實現具應用價值的研究與專案。
+
+## 📬 Contact
+- 🌐 GitHub: [github.com/ShangGuanKun](https://github.com/ShangGuanKun)
+- 🔗 LinkedIn: [linkedin.com/in/biingkun1228](https://www.linkedin.com/in/biingkun1228/)
